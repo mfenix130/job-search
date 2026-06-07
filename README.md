@@ -232,7 +232,7 @@ job-search/
 ├── .claude/
 │   └── settings.json             # Tool permissions for the workflow
 ├── agent/
-│   └── SKILL.md                  # Orchestrator — runs the full workflow end-to-end
+│   └── AGENT.md                  # Orchestrator — runs the full workflow end-to-end
 ├── skills/
 │   ├── job-ingestion/
 │   │   └── SKILL.md              # Fetch JDs from URLs/files, synthesize role requirements
@@ -383,7 +383,7 @@ skills/
     └── SKILL.md
 ```
 
-Then add a stage for it in `agent/SKILL.md`.
+Then add a stage for it in `agent/AGENT.md`.
 
 ---
 

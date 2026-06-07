@@ -14,7 +14,7 @@ Use the job-search agent for:
 - Target companies: <company names for research>
 ```
 
-The agent reads `agent/SKILL.md`, runs all stages in sequence, and writes all output to `applications/<name>/`.
+The agent reads `agent/AGENT.md`, runs all stages in sequence, and writes all output to `applications/<name>/`.
 
 ## Skills (run individually if needed)
 
