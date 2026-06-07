@@ -1,0 +1,7 @@
+applications/*
+!applications/.gitkeep
+*.pdf
+*.env
+.DS_Store
+CLAUDE.local.md
+.claude/settings.local.json

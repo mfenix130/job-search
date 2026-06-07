@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "WebFetch(*)",
+      "Read(**)",
+      "Write(./applications/**)",
+      "Bash(pandoc *)",
+      "Bash(pdftotext *)",
+      "Bash(textutil *)",
+      "Bash(libreoffice *)",
+      "Bash(python3 *)",
+      "Bash(mkdir -p *)",
+      "Bash(cp *)",
+      "Bash(ls *)",
+      "Bash(find . *)"
+    ],
+    "deny": [
+      "Write(./skills/**)",
+      "Write(./roles/**)",
+      "Write(./agent/**)",
+      "Write(./.claude/**)",
+      "Write(./CLAUDE.md)",
+      "Write(./README.md)"
+    ]
+  }
+}
